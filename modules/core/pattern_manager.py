@@ -166,18 +166,18 @@ def get_clear_pattern_file(clear_pattern_mode, path=None):
     if clear_pattern_mode == 'adaptive':
         if not path:
             logger.warning("No path provided for adaptive clear pattern")
-            return random.choice(list(table_patterns.values()))
+            return table_patterns['clear_from_out']  # Fallback
             
         coordinates = parse_theta_rho_file(path)
         if not coordinates:
             logger.warning("No valid coordinates found in file for adaptive clear pattern")
-            return random.choice(list(table_patterns.values()))
+            return table_patterns['clear_from_out']  # Fallback
             
         first_rho = coordinates[0][1]
         if first_rho < 0.5:
             return table_patterns['clear_from_out']
         else:
-            return random.choice([table_patterns['clear_from_in'], table_patterns['clear_sideway']])
+            return table_patterns['clear_from_in']
     else:
         if clear_pattern_mode not in table_patterns:
             return False
