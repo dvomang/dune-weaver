@@ -173,7 +173,7 @@ def get_clear_pattern_file(clear_pattern_mode, path=None):
             logger.warning("No valid coordinates found in file for adaptive clear pattern")
             return random.choice(list(table_patterns.values()))
             
-        first_rho = coordinates[0][1]
+         first_rho = coordinates[0][1]
         if first_rho < 0.5:
             return table_patterns['clear_from_out']
         else:
