@@ -2,31 +2,32 @@
   "Clear": [
     "Clear_From_In_Pro.thr",
     "Clear_From_Out_Pro.thr"
-  ],
+  {
   "Dental": [
     "Brushing Tooth.thr",
+    "Canine.thr",
     "DentalChair.thr",
     "Dentist.thr",
     "Dentist2.thr",
     "Dentist3.thr",
     "Dentist4.thr",
     "Dentist5.thr",
-    "Even_Sparser_Sawtooth.thr",
+    "Denture2.thr",
     "Implant.thr",
     "Implant2.thr",
     "Implant3.thr",
     "Implant4.thr",
     "ImplantAndTooth.thr",
     "Implantandteeth.thr",
-    "Sawtooth.thr",
+    "Molar2.thr",
     "Skull.thr",
     "Skull2.thr",
-    "Sparse_Sawtooth.thr",
     "TFoustSkull.thr",
     "Toothbrush.thr",
     "Toothbrushes.thr",
     "Typodont.thr"
-  ],
+  ]
+}
   "OfficePlaylist": [
     "10 sided polygon.thr",
     "6 sided polygon.thr",
