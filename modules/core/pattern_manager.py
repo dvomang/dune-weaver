@@ -150,8 +150,7 @@ def get_clear_pattern_file(clear_pattern_mode, path=None):
         },
         'dune_weaver_pro': {
             'clear_from_out': './patterns/clear_from_out_pro.thr',
-            'clear_from_in': './patterns/clear_from_in_pro.thr',
-            'clear_sideway': './patterns/clear_sideway_pro.thr'
+            'clear_from_in': './patterns/clear_from_in_pro.thr',            
         }
     }
     
