@@ -18,7 +18,8 @@
     "Stocking_With_Presents.thr",
     "Tree_And_Reindeer.thr",
     "Happy_Holidays.thr",
-    "Snowman_Frosty.thr"
+    "Snowman_Frosty.thr",
+    "custom_patterns/Christmas_Angel.thr"
   ],
   "Halloween": [
     "Deca_Switch.thr",
@@ -2434,5 +2435,16 @@
     "swirl-overlay.thr",
     "tesselation_twist.thr",
     "wormhole.thr"
+  ],
+  "New Year": [
+    "custom_patterns/BunchOfValentines.thr",
+    "custom_patterns/Polarvalentine.thr",
+    "custom_patterns/Romantic_Valentine_Kiss.thr",
+    "custom_patterns/Valentine_Cupid.thr",
+    "custom_patterns/Valentines_Heart_Shaped_Box.thr",
+    "custom_patterns/Valentines_Moon.thr"
+  ],
+  "Clear": [
+    "custom_patterns/MasterClear.thr"
   ]
 }
