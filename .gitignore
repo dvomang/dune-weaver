@@ -1,5 +1,6 @@
 gcode_files/
 __pycache__/
+patterns/custom_patterns/
 *.pyc
 *.pyo
 .env
