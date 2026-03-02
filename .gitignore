@@ -1,6 +1,5 @@
 gcode_files/
 __pycache__/
-patterns/custom_patterns/
 *.pyc
 *.pyo
 .env
@@ -8,6 +7,7 @@ patterns/custom_patterns/
 *.json
 .venv/
 patterns/cached_svg/
+patterns/custom_patterns/
 patterns/cached_images/custom_*
 # Node.js and build files
 node_modules/
